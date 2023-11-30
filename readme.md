@@ -15,7 +15,7 @@ Existen 3 maneras para vincular html con css:
 
 3. EXPLICAR LOS 4 CONCEPTOS IMPORTANTES CON EJEMPLO (SELECTORES, HERENCIA, CASCADA, ESPECIFICIDAD)
 
-- Selector: Es el elemento HTML que se desea modificar por ejemplo <h1>, <h2>, <h3>, etc.
+- Selector: Es el elemento HTML que se desea modificar por ejemplo h1, h2, h3, etc.
 - Herencia: Es cuando ciertos elementos o etiquetas heredan los estilos principales de sus ancestros por ejemplo:
 
     <body style="color: blue">
@@ -40,7 +40,7 @@ Existen 3 maneras para vincular html con css:
 - Especificidad: Es un valor que adquiere el selector para determinar la importancia del estilo por ejemplo:
 
     h1 {
-        color: red;!important
+        color: red !important;
     }
 
     h1 {
